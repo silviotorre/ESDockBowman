@@ -126,6 +126,12 @@ public class TourRatingServiceIntegrationTest {
         assertThat(tourRating.getComment(), is("one"));
     }
 
+    /*
+    Send by luca farrcrai
+    Keep calm
+    Go assertive
+    */
+
     //Unhappy path, no Tour Rating exists for tourId=1 and customer=1
     @Test(expected = NoSuchElementException.class)
     public void updateSomeException() throws Exception {
